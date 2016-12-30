@@ -1,0 +1,25 @@
+What's inside the site?
+*about me
+*tools/programming language i use
+*blog post
+
+
+HOME
+My name
+Simple introduction
+tabs(I like coffee, I like photography, I like music)
+Social accounts
+Tools I use
+insert works through github link
+
+
+ABOUT
+about me
+
+BLOG
+knowledge u want to impart
+
+
+
+--
+add codeigniter, sass, bootstrap, django, sass

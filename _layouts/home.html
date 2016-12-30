@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+  <div class="layer">
+
+            <div class="container">
+              <img src="assets/profile.jpg" alt="" class="center-block img-reponsive img-circle" width="200px" height="auto">
+            <h2 class="text-center entry-font">Hi, I'm Jack Owen</h2>
+           
+              <p class="text-center">A Web developer and designer based in Philippines studying Information Techbology at Leyte Normal University. <br> I'm a senior now and expecting to graduate on March 2017.</p>
+         
+            <div class="social-container">
+                <i class="fa fa-facebook social-icon" data-toggle="tooltip" title="Add me as a friend on Facebook"></i>
+                <i class="fa fa-twitter social-icon" data-toggle="tooltip" title="Follow me on twitter"></i>
+                <i class="fa fa-instagram social-icon" data-toggle="tooltip" title="Follow me on Instagram"></i>
+                <i class="fa fa-github social-icon" data-toggle="tooltip" title="See me work"></i>
+            </div>
+            <br>
+            <div class="latest-blog">
+                <article>
+                  {% for post in site.posts reversed %}
+                     {% if post.featured == true %}
+                         <section>
+                            <h4 class="entry-font"><a href="{{post.url | prepend:site.baseurl}}" class="post-title">{{post.title}}</a></h4>
+                            <small><i class="fa fa-calendar-o"></i>&nbsp;{{post.date | date: "%a, %b %d, %y" }}</small><br>
+                            {{post.content | strip_html | strip_newlines | truncate: 200 }}
+                        </section>
+                     {% endif %}
+                  {% endfor %}
+                </article>
+            </div>
+
+          </div>
+
+  </div>
+
+  <div class="layer">
+    <p class="entry-font">Creative living beyond fear.</p>
+  </div>
+
+  <div class="layer">
+      <div class="container">
+      <br>
+        <h3 class="text-center entry-font"><i class="fa fa-flask"></i>&nbsp;Getting productive and creative</h3>
+      <br>
+
+       <p>
+          Wasting time is my worst enemy so, I always keep myself busy for productive things and for learning and to focus my creative self. I love non-fictions books like Elizabeth Gilbert's <a href="">Big Magic: Creative Living Beyond Fear</a> that's why the tag line is including here in my banner and also <a href="">Rich Dad, Poor Dad</a> by Robert Kiyosaki. Aside from books I also got into photography -- I like being infinite in taking photos while having adventures with my friends so I bought a Canon camera with my sideline money + savings (and a lil bit from my mom's money) from programming. Cloud is also one of my bestfriends cause it has all my resources and entertainment. Of course, these hobbies of mine is accompanied by music. I live all genres but most of the time I listen to Novo Amor's work of art like <a href="https://www.youtube.com/watch?v=OmKAn8rNbKg">Anchor</a> and <a href="https://www.youtube.com/watch?v=2dKYs_j4J0k">From Gold</a>. 
+       </p>
+      
+        <div class="row">
+          <div class="col-sm-4">
+            <h2 class="text-center">
+              <i class="fa fa-code"></i><br>
+              code
+            </h2>
+          </div>
+          <div class="col-sm-4">
+            <h2 class="text-center">
+              <i class="fa fa-camera"></i><br>
+              photography
+            </h2>
+          </div>
+          <div class="col-sm-4">
+            <h2 class="text-center">
+              <i class="fa fa-spotify"></i><br>
+              music
+            </h2>
+          </div>
+        </div>
+        <br>
+        <br>
+
+         <div class="row">
+          <div class="col-sm-4">
+            <h2 class="text-center">
+              <i class="fa fa-cloud"></i><br>
+              cloud
+            </h2>
+          </div>
+          <div class="col-sm-4">
+            <h2 class="text-center">
+              <i class="fa fa-map-o"></i><br>
+              adventure
+            </h2>
+          </div>
+          <div class="col-sm-4">
+            <h2 class="text-center">
+              <i class="fa fa-book"></i><br>
+              reading
+            </h2>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="layer">
+    <p class="entry-font">Being creative together.</p>
+  </div>
+  <div class="layer">
+    <div class="container">
+    <br>
+       <h3 class="text-center entry-font"><i class="fa fa-legal"></i>&nbsp;Tools I use</h3>
+        <br><br><br><br>
+    <div class="row">
+        <div class="col-sm-4"><img src="assets/css.png" alt="CSS" class="img-responsive center-block tool-icon"></div>
+        <div class="col-sm-4"><img src="assets/html5.png" alt="HTML5" class="img-responsive center-block tool-icon"></div>
+        <div class="col-sm-4"><img src="assets/js.png" alt="Javascript" class="img-responsive center-block tool-icon"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-sm-4"><img src="assets/php.png" alt="PHP" class="img-responsive center-block tool-icon"></div>
+        <div class="col-sm-4"><img src="assets/ps.png" alt="Photoshop" class="img-responsive center-block tool-icon"></div>
+        <div class="col-sm-4"><img src="assets/python.png" alt="Python" class="img-responsive center-block tool-icon"></div>
+    </div>
+    </div>
+  </div>
+
+<!-- <div class="container">
+   {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+</div> -->

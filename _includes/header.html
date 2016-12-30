@@ -1,0 +1,11 @@
+
+   <!--     <a href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+ -->
+
+  <nav class="text-center">
+        <ul>
+           {% for link in site.links %}
+              <li class="nav-item entry-font"><a href="{{link.url}}">{{link.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
