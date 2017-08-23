@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CreativeGoof
+title: CreativeGoof - Jack Owen Bula
 email: jack.bula@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -26,10 +26,10 @@ github_username:  jekyll
 
 permalink: /:categories/:title
 links:
-  - title: blog
-    url: /blog
-  - title: Home
-    url: /
+  - title: PROJECTS
+  - title: ABOUT
+  - title: CONTACT
+
 
 
 # Build settings
