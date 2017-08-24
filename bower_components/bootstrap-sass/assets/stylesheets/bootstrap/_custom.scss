@@ -3,6 +3,7 @@
 html, body {
 	font-size: 15px !important;
 	overflow-x: hidden;
+
 }
 
 
@@ -78,6 +79,13 @@ nav {
 	height: 100vh !important;
 }
 
+#about {
+	background-color: #e4e7dc;
+	color: #34495e;
+	padding: 2em 0px;
+}
+
+
 .thumb {
     position: relative;
 }
@@ -134,5 +142,52 @@ hr {
 		margin-top: 2px;
 		border-top: 1px solid #8c8b8b;
 		border-bottom: 1px solid #fff;
+	}
+}
+
+
+article {
+
+	font-size: 1.2em;
+	line-height: 25px;
+}
+
+footer {
+	background-color: #34495e;
+	color: white;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	#copyright {
+		background-color: #2c3e50;
+		padding: 1em 0px;
+	}
+}
+
+
+#socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-icon {
+	
+	a {
+		margin: 10px;
+		height: 40px;
+		width: 40px;
+		border: 2px solid white;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		
+		&:hover {
+			background-color: white;
+			color: #34495e;
+			transition: all 0.4s ease-in;
+		}	
 	}
 }

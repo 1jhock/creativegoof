@@ -1,0 +1,123 @@
+html, body {
+  font-family: 'Cabin', sans-serif !important;
+  font-size: 15px !important;
+  overflow-x: hidden; 
+  background-color: #f1f1f1;
+}
+
+.navbar-fixed-top a {
+  color: white !important; }
+  .navbar-fixed-top a:hover {
+    background-color: transparent !important; }
+
+.text-span {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white; }
+
+.blue-span {
+  background-color: #48c6ef; }
+
+.red-span {
+  background-color: #f77062; }
+
+.entry-font {
+  font-family: 'Space Mono', monospace; }
+
+.btn-read-more {
+  color: white !important;
+  background-color: #48c6ef;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 5px; }
+
+.blog-post {
+  background-color: white;
+  padding: 20px; }
+
+a {
+  color: #f77062 !important;
+  text-decoration: none; }
+  a:hover {
+    border-bottom: 1px dotted #f77062;
+    text-decoration: none !important; }
+  a:focus {
+    text-decoration: none !important; }
+
+#landing-page {
+  background-image: url("../380H.jpg");
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: -1;
+  background-repeat: no-repeat; }
+  #landing-page h1 .add-on {
+    padding: 10px 20px;
+    border-radius: 3px; }
+  #landing-page h1 #designer {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); }
+  #landing-page h1 #developer {
+    background-image: linear-gradient(to right, #f77062 0%, #fe5196 100%); }
+  #landing-page #btn-portfolio {
+    padding: 15px 35px;
+    border-radius: 70px;
+    border: 2px solid #ff0844;
+    margin: 2em;
+    color: white !important; }
+    #landing-page #btn-portfolio:hover {
+      transform: scale(1.3);
+      transition: all 0.4s linear; }
+
+#about {
+  min-height: 100vh; }
+
+#cloud {
+  background-image: url("../cloud.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center; }
+
+#tools {
+  background-color: #a1c4fd; }
+
+#blog-header {
+  background-image: url("../147h.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center; }
+
+#about-header {
+  background-image: url("../about.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center; }
+
+.transition {
+  transition: background-color 0.6s ease-in-out;
+  color: black !important;
+  border-bottom: 3px solid white; }
+
+.tool-icon {
+  filter: grayscale(100%); }
+  .tool-icon:hover {
+    filter: grayscale(0%);
+    transition-property: filter 0.5s ease; }
+
+.post-header {
+  height: 30vh;
+  background-color: #48c6ef;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+  border-radius: 3px; }
+
+/*# sourceMappingURL=style.css.map */
