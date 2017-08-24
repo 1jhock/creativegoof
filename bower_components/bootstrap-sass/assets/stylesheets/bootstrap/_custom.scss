@@ -65,6 +65,10 @@ nav {
     #header {
     	padding-top: 4em !important;
     }
+
+    #official-img {
+    	height: 22px !important;
+    }
 }
 
 .title-font {
@@ -99,13 +103,13 @@ nav {
 	justify-content: space-between;
 	flex-direction: column;
 	align-items: center;
-	color: #34495e;
+	color: #4A586B;
 	height: 100vh !important;
 }
 
 #about {
 	background-color: #e4e7dc;
-	color: #34495e;
+	color: #4A586B;
 	padding: 2em 0px;
 }
 
@@ -152,7 +156,7 @@ a.middle {
 }
 
 .text {
-  background-color: #34495e;
+  background-color: #4A586B;
   color: white;
   font-size: 16px;
   padding: 10px 32px;
@@ -195,7 +199,7 @@ article {
 }
 
 footer {
-	background-color: #34495e;
+	background-color: #4A586B;
 	color: white;
 	display: flex !important;
 	flex-direction: column;
@@ -228,7 +232,7 @@ footer {
 		
 		&:hover {
 			background-color: white;
-			color: #34495e;
+			color: #4A586B;
 			transition: all 0.4s ease-in;
 		}	
 	}
