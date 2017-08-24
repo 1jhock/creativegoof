@@ -2,19 +2,16 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+ 
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+   {% include header.html %}
+   {{ content }}
 
-  <body class="site">
-
-    {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-
+ 
+  {% include footer.html %}
+  <script src="{{"assets/js/jquery.js" | relative_url }}"></script>
+  <script src="{{ "assets/js/bootstrap.min.js" | relative_url }}"></script>
+  <script src="{{ "assets/js/custom.js" | relative_url}}"></script>
   </body>
 
 </html>
