@@ -14,6 +14,7 @@ html, body {
 
 nav {
 	font-family: 'titleFont';
+	 border: none !important;	
 }
 
 /* Link */
@@ -24,22 +25,23 @@ nav {
 
  .navbar-default .navbar-nav > .active{
    color: #000;
-   background: #7f8c8d !important;
+   background: #617487 !important;
  }
  .navbar-default .navbar-nav > .active > a, 
  .navbar-default .navbar-nav > .active > a:hover, 
  .navbar-default .navbar-nav > .active > a:focus {
       color: #000;
-      background: #7f8c8d !important;
+      background: #617487 !important;
  }
 
 /* Title */
 .navbar-default .navbar-brand {
     color: white !important;
+
 }
 
 #title {
-	font-size: 6em; 
+	font-size: 5em; 
 	margin-top: 2em;
 	text-shadow: 0 1px 0 #ccc, 
                0 2px 0 #c9c9c9,
@@ -51,8 +53,18 @@ nav {
                0 1px 3px rgba(0,0,0,.3),
                0 3px 5px rgba(0,0,0,.2),
                0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+               0 5px 5px rgba(0,0,0,.2),
+               0 10px 10px rgba(0,0,0,.15);
+}
+
+@media screen and (max-width: 480px) {
+    #title {
+        font-size: 3em; 
+    }
+
+    #header {
+    	padding-top: 4em !important;
+    }
 }
 
 .title-font {
@@ -120,9 +132,10 @@ a.middle {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   display: inline-block;
-	
+
 	&:hover {
 		 text-decoration: none !important;
+
 	}
 }
 
@@ -131,6 +144,7 @@ a.middle {
   height: 300px !important;
   width: auto !important;
   transition: all 0.4s ease;
+
 }
 
 .thumb:hover .middle {
@@ -141,7 +155,23 @@ a.middle {
   background-color: #34495e;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 10px 32px;
+  border-radius: 40px;
+
+  &:hover {
+  	background-color: rgba(52, 73, 94, 0.6);
+  }
+}
+
+.parent {
+	display: flex;
+	justify-content: center;
+}
+
+#description {
+	margin: 1em;
+	padding: 8px 20px;
+	letter-spacing: 3px;
 }
 
 hr {
