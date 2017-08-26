@@ -2,120 +2,292 @@
 layout: default
 ---
 <div id="header">
-   <div id="texts">
-      <h1 class="text-center title-font" id="title">JACK OWEN</h1>
-       <img src="assets/line.png" alt="" class="center-block img-reponsive image">
+   <div id="banner-img"></div>
+   <div id="header-content">
+     <div id="texts">
+        <h1 class="text-center title-font" id="title"></h1>
+         <img src="assets/line.png" alt="" class="center-block img-reponsive image" id="hr-img">
 
-     <div class="parent">
-        <span id="description" class="text-center">WEB DEVELOPER <i class="fa fa-plus-circle"></i> DESIGNER</span>
+       <div class="parent">
+          <span id="description" class="text-center"><h3>WEB DEVELOPER <i class="fa fa-plus-circle"></i> DESIGNER</h3></span>
+       </div>
      </div>
-   </div>
 
-   <div id="blank"></div>
+     <div id="blank"></div>
+      <h1 id="pointer"><i class="fa fa-angle-down"></i></h1>
+   </div>
 </div>
 
+<!-- PROJECTS -->
 <div id="projects">
   <div class="container">
     <span><h1 class="title-font text-center reg-title" >PROJECTS</h1></span>
-    <hr>
+    <h4 class="text-center sub-heading" style="color: #616161">I've got some of my projects you can look into.</h4>
     <div class="row">
       <div class="col-lg-4">
-        <div class="thumb" style="background-color: #f1f1f1;">
+       <div class="thumb-parent">
+          <div class="thumb" style="background: linear-gradient(to top, #74ebd5, #acb6e5); ;">
              <img src="assets/cs.png" alt="" class="center-block img-reponsive image">
    
               <a href="https://github.com/1jhock/Consultation-System-for-LNU" target="_blank" class="middle">
                  <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
               </a>
-      
+        </div>
+          <div class="thumb-text">
+            <span class="label label-primary">PHP (CodeIgniter)</span>
+            <span class="label label-warning">Javascript</span>
+            <span class="label label-danger">Google Maps</span>
+            <span class="label label-sql">MySQL</span>
+         </div>
+       </div>
+     
+      </div>
+      <div class="col-lg-4">
+        <div class="thumb-parent">
+           <div class="thumb" style=" background: linear-gradient(to top, #56ccf2, #2f80ed);">
+            <img src="assets/chat.png" alt="" class="center-block img-reponsive image">
+              <a href="https://github.com/1jhock/Real-time-Group-chat-with-Web-sockets" target="_blank" class="middle">
+                   <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
+                </a>
+          </div>
+          <div class="thumb-text">
+           <span class="label label-default">Node.js</span>
+           <span class="label label-primary">PHP (CodeIgniter)</span>
+            <span class="label label-sql">MySQL</span>
+          </div>
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="thumb" style=" background: linear-gradient(to top, #56ccf2, #2f80ed);">
-          <img src="assets/chat.png" alt="" class="center-block img-reponsive image">
-            <a href="https://github.com/1jhock/Real-time-Group-chat-with-Web-sockets" target="_blank" class="middle">
-                 <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
-              </a>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="thumb" style="background-color: #e5dfc8;">
-          <img src="assets/koffee.png" alt="" class="center-block img-reponsive image">
-           <a href="https://github.com/1jhock/Koffee-A-Web-based-Personal-Music-Player" target="_blank" class="middle">
-                 <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
-              </a>
+        <div class="thumb-parent">
+          <div class="thumb" style="background-color: #e5dfc8;">
+            <img src="assets/koffee.png" alt="" class="center-block img-reponsive image">
+             <a href="https://github.com/1jhock/Koffee-A-Web-based-Personal-Music-Player" target="_blank" class="middle">
+                   <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
+                </a>
+          </div>
+          <div class="thumb-text">
+            <span class="label label-primary">PHP (CodeIgniter)</span>
+            <span class="label label-warning">Javascript</span>
+            <span class="label label-success">ID3</span>
+             <span class="label label-sql">MySQL</span>
+          </div>
         </div>
       </div>
     </div>
   <br>
     <div class="row">
       <div class="col-lg-4">
-          <div class="thumb" style="background-color: #bfc0cd">
-           <img src="assets/bids.png" alt="" class="center-block img-reponsive image">
-           <a href="https://github.com/1jhock/BAC-Filma-Requesting-System" target="_blank" class="middle">
-             <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
-          </a>
+         <div class="thumb-parent">
+            <div class="thumb" style="background-color: #bfc0cd">
+             <img src="assets/bids.png" alt="" class="center-block img-reponsive image">
+             <a href="https://github.com/1jhock/BAC-Filma-Requesting-System" target="_blank" class="middle">
+               <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
+            </a>
+          </div>
+          <div class="thumb-text">
+            <span class="label label-primary">PHP (CodeIgniter)</span>
+            <span class="label label-warning">Javascript</span>
+             <span class="label label-sql">MySQL</span>
+          </div>
+         </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="thumb-parent">
+           <div class="thumb" style="background-color: #043c71">
+           <img src="assets/lnu-rms.png" alt="" class="center-block img-reponsive image">
+             <a href="" target="_blank" class="middle">
+               <div class="text">Private &nbsp;&nbsp;<i class="fa fa-gitlab"></i></div>
+            </a>
+          </div>
+          <div class="thumb-text">
+            <span class="label label-primary">PHP (CodeIgniter)</span>
+            <span class="label label-warning">Javascript</span>
+             <span class="label label-sql">MySQL</span>
+          </div>
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="thumb" style="background-color: #043c71">
-         <img src="assets/lnu-rms.png" alt="" class="center-block img-reponsive image">
-           <a href="" target="_blank" class="middle">
-             <div class="text">Private &nbsp;&nbsp;<i class="fa fa-gitlab"></i></div>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="thumb" style="background-color: #c0392b">
+        <div class="thumb-parent">
+          <div class="thumb" style="background-color: #c0392b">
              <img src="assets/frims.png" alt="" class="center-block img-reponsive image">
              <a href="" target="_blank" class="middle">
                <div class="text">Private &nbsp;&nbsp;<i class="fa fa-gitlab"></i></div>
             </a>
+        </div>
+        <div class="thumb-text">
+         <span class="label label-primary">PHP (CodeIgniter)</span>
+            <span class="label label-warning">Javascript</span>
+             <span class="label label-sql">MySQL</span>
+        </div>
         </div>
       </div>
     </div>
     <br>
     <div class="row">
         <div class="col-lg-4">
-          <div class="thumb" style="background-color: #5fce8e">
-           <img src="assets/balai.png" alt="" class="center-block img-reponsive image">
-           <a href="https://github.com/1jhock/Balai-Boarding-House-System" target="_blank" class="middle">
-             <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
-          </a>
-        </div>
+         <div class="thumb-parent">
+            <div class="thumb" style="background-color: #5fce8e">
+             <img src="assets/balai.png" alt="" class="center-block img-reponsive image">
+             <a href="https://github.com/1jhock/Balai-Boarding-House-System" target="_blank" class="middle">
+               <div class="text">View on &nbsp;<i class="fa fa-github"></i></div>
+            </a>
+          </div>
+          <div class="thumb-text">
+            <span class="label label-info">Visual Basic</span>
+             <span class="label label-sql">MySQL</span>
+          </div>
+         </div>
       </div>
-     
      
     </div>
   </div>
 </div>
+
 <br><br>
+<!-- ABOUT -->
 <div id="about">
   <div class="container">
   <br>
     <span class="reg-title"><h1 class="title-font text-center">ABOUT</h1></span>
-    <hr>
-     <br>
-     
-         <article>
-            <div class="row">
-                <div class="col-lg-6">
-                  <p>
-                      Started programming in College - I was introduced with C++ then turn to C# and VB creating Desktop Application. Before Sophomore year had ended, one of my classmates introduce me to Web Development and feel in love with it ever since. So I started learning bits of Web stuffs on summer that year. 
-                  </p>
-                      Junior year, I was one of the three students chosen who will compete to the 2nd Le Maste Web Development + Design competetion sponsored by Google Philippines held in Davao City - we won 2nd place. Just after 2 months we compete again for the SMITE Web Development Competetion and got the first place.
-                  <p>
-                  </p>
-                </div>
-                <div class="col-lg-6">
-                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi fuga tenetur excepturi perspiciatis! Dolore velit eligendi alias soluta, pariatur sed tenetur asperiores provident labore harum quisquam! Placeat, aperiam incidunt.
-                  </p>
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur mollitia vitae nam, ipsum in quos ipsa earum pariatur accusantium.
-                  </p>
-                </div>
-            </div>
+    <br>
+         <article> 
+          <h3>
+            I've always been enjoying creating stuff on the web from a small website to interactive web apps. Drawn to use any kind of resources that will make the web beautiful from front end to back end. Integration of what I love and what I things I get curious to really defines who I am. This kinda inspires me to create my recent project, a music player - for the love of Coding, Music, and Coffee. 
+          </h3>
+          <h3>
+            I am a person who prioritizes learning from my experience so I can improve my next projects.
+          </h3>
         </article>
   </div>
   <br><br> <br>
+</div>
+
+
+<!-- TIMELINE -->
+<div id="timeline">
+<div class="container">
+      <span><h1 class="title-font text-center reg-title" >TIMELINE</h1></span>
+  <h4 class="text-center sub-heading" style="color: #616161">Took a screenshots of my life. Here it is.</h4>
+
+    <section id="cd-timeline" class="cd-container">
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg-o">
+        <i class="fa fa-circle-o-notch"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Born that day</h2>
+        <p>I was born on August 14, 1996, two days prior to our hometown fiesta - yes, lots of food during birthdays. </p>
+       
+        <span class="cd-date">1996</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+     <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg">
+        <i class="fa fa-minus-circle"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Not-so- athlete</h2>
+        <p>My friends introduce me to table tennis. I fell in love with it and started playing with them. I still don't have my personal racket at this time so I just borrow with them.</p>
+        
+        <span class="cd-date">2010</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+     <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg-o">
+        <i class="fa fa-check-circle"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Certified Athlete </h2>
+        <p>I was one of the chosen players to complete for Eastern Visayas Regional Athletic Association (EVRAA). </p>
+        
+        <span class="cd-date">2012</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+     <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg">
+        <i class="fa fa-arrows-h"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Changed directions  </h2>
+        <p>I watched <a href="https://www.youtube.com/watch?v=nKIu9yen5nc&t=1s" target="_blank">Code.org's YouTube video</a> about Computer Programming and was moved by the impact computer science give to our society and decided to do the same - <i>code and try to have an impact</i>. </p>
+        
+        <span class="cd-date">2013</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg-o">
+        <i class="fa fa-laptop"> </i>     
+        </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Enrolled to College </h2>
+        <p>I want to proceed Computer science but had some issues with where to go to college and the availability of the program so, I improvised - went to Leyte Normal University and <i>took Bachelor of Science in Information Technology</i>. </p>
+        
+        <span class="cd-date">2014</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg">
+        <i class="fa fa-fire"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Wanting to do more </h2>
+        <p>While coding I tried Table Tennis again and became Varsity player playing for LNU at State Colleges and Universities Athletic Association (SCUAA). </p>
+        
+        <span class="cd-date">2015</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg-o">
+       <i class="fa fa-coffee"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Boost </h2>
+        <p>Impatience and realization - <i>Feeling stuck in school discussions and eager to learn more about coding</i>. So, I studied Web Development in advance, <i>got my first freelancing</i> (doing some basic front end stuff) and had my first taste experience of Impostor Syndrome. </p>
+      
+        <span class="cd-date">2015 (Summer)</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg">
+        <i class="fa fa-code"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>More Boost </h2>
+        <p>Got a change to compete at the 2nd Le Maste's Web Development and Designing Competition sponsored by Google Philippines - we <i>got the 2nd place</i>. </p>
+        <p>Just after two months we competed again for the SMITE's Web Development Competition Region 8 - we <i>got the 1st place</i>. 
+Winning a competition gave me boost to create more and learn more about the field.</p>
+        
+        <span class="cd-date">2016</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-bg-o">
+        <i class="fa fa-heart"></i>
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Graduation</h2>
+        <p>Pretty contented for what I've done in my college days and ready to jump in my next adventure.</p>
+        <span class="cd-date">2017</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+  </section> <!-- cd-timeline -->
+
+  </div>
 </div>
