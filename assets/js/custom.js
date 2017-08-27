@@ -26,12 +26,12 @@ $(document).on('click','#pointer',function(e){
 /* TYPING ANIMATION */
 var typed = new Typed("#title", {
   // Waits 1000ms after typing "First"
-  strings: ["Hi, I'm Jack Owen...", "I like web stuff..."],
+  strings: ["Hi, I'm Jack Owen...", "I like web stuff."],
   typeSpeed: 100,
-	  backSpeed: 100,
-	  loop: true,
-	  showCursor: false,
-	  backDelay: 400,
+  backSpeed: 100,
+  loop: true,
+  showCursor: false,
+  backDelay: 400,
   smartBackspace: true // Default value
 });
 
